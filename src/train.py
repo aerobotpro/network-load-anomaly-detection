@@ -1,5 +1,4 @@
 import asyncio
-import numpy as np
 from sys import argv
 import json
 from os.path import isdir
