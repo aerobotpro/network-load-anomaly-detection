@@ -42,7 +42,7 @@ Two new directories will be created upon first instance, "datasets" and "session
 The "datasets" directory will represent your training data, as you'll see a sub-directory named for each of your datasets
 that you have trained to.
 
-The "sessions" directory represents your past sessions and their performance against our training data.
+The "sessions" directory represents your past sessions and their performance against our training data. This will log @ each scan.
 
 You may hardcode your own actions in "detection.py" in the lines marked as the following, here's a hardcoded example (psudocode):
 ```py
