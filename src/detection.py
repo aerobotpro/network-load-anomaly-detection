@@ -188,7 +188,7 @@ async def main():
 
 
         #RECV_MIN
-        elif live_recv_min > training_recv_min:
+        if live_recv_min > training_recv_min:
             #RISE IN AVG
             if live_recv_min > training_recv_min + (training_recv_min * 0.0001):
                 flags.append({'time': str(datetime.now()), 'flag': 'Detected +0.0001 average increase @ recv_min'})
@@ -235,7 +235,7 @@ async def main():
 
 
         #SEND_MAX 
-        elif live_send_max > training_send_max:
+        if live_send_max > training_send_max:
             #RISE IN AVG
             if live_send_max > training_send_max + (training_send_max * 0.0001):
                 flags.append({'time': str(datetime.now()), 'flag': 'Detected +0.0001 average increase @ recv_max'})
@@ -282,7 +282,7 @@ async def main():
 
 
         #RECV_MIN
-        elif live_send_min > training_send_min:
+        if live_send_min > training_send_min:
             #RISE IN AVG
             if live_send_min > training_send_min + (training_send_min * 0.0001):
                 flags.append({'time': str(datetime.now()), 'flag': 'Detected +0.0001 average increase @ recv_min'})
