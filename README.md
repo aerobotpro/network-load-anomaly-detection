@@ -44,7 +44,9 @@ that you have trained to.
 
 The "sessions" directory represents your past sessions and their performance against our training data. This will log @ each scan.
 
-You may hardcode your own actions in "detection.py" in the lines marked as the following, here's a hardcoded example (psudocode):
+Running "detection.py" will simply print metric based on the live data against the training data and save to "sessions" directory.
+
+You may also hardcode your own actions in "detection.py" in the lines marked as the following, here's a hardcoded example (psudocode):
 ```py
 ###
 #<Increase/Decrease> <Amount>
