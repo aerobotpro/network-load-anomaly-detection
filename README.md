@@ -39,7 +39,7 @@ If you train during an ongoing DDOS attack or during a peak visit time then your
 
 Two new directories will be created upon first instance, "datasets" and "sessions".
 
-The "Datasets" directory will represent your training data, as you'll see a sub-directory named for each of your datasets
+The "datasets" directory will represent your training data, as you'll see a sub-directory named for each of your datasets
 that you have trained to.
 
 The "sessions" directory represents your past sessions and their performance against our training data.
