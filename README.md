@@ -6,7 +6,7 @@ A basic machine learning system for detecting network recv/send anomalies/fluctu
 > dstat installation:
 ```sh
 # RedHat/CentOS and Fedora
-yum install dstat
+sudo yum install dstat
 
 # Debian, Ubuntu and Linux Mint
 sudo apt-get install dstat
